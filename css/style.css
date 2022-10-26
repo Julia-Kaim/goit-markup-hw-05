@@ -490,7 +490,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/* okno modalne */
 .backdrop {
   position: fixed;
   height: 581px;
@@ -517,7 +517,6 @@ body {
   right: 8px;
   top: 8px;
 
-
   box-shadow: 0px 1px 3px 0px #0000001f;
 
   background-color: #ffffff;
@@ -529,4 +528,19 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+/* overlay na html */
+.overlay-picture {
+  height: 70px;
+width: 370px;
+background: #2F303ACC;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--white-content);
+
+
 }
