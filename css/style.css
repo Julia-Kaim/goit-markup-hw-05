@@ -532,15 +532,19 @@ body {
 /* overlay na html */
 .overlay-picture {
   height: 70px;
-width: 370px;
-background: #2F303ACC;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: var(--white-content);
-
-
+  width: 370px;
+  background: #2f303acc;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white-content);
+  position: relative;
+  top: -74px;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
