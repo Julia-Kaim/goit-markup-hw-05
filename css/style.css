@@ -457,6 +457,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-inline: 20px;
 }
 .item:hover .overlay-portfolio {
   top: 0;
