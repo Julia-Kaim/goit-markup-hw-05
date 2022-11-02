@@ -434,7 +434,6 @@ body {
   position: relative;
   overflow: hidden;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .overlay-portfolio {
   background-color: #2196f3e5;
@@ -571,11 +570,13 @@ body {
   height: 100%;
   background-color: rgba(0 0 0 / 0.5);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
 }
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   width: 528px;
   min-height: 581px;
@@ -600,6 +601,7 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0.7);
 }
 /* overlay na html */
 .overlay-picture {
